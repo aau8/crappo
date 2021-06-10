@@ -1,0 +1,34 @@
+.advantages {
+  padding: 200px 0 50px 0;
+}
+
+.advantages__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  max-width: 334px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.advantages-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: rgba(255,255,255,.1);
+  border-radius: 100px;
+}
+
+.advantages__content {
+  margin: 0 0 0 24px;
+}
+
+.advantages-text {
+  color: $lightSecond;
+}

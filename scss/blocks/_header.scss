@@ -1,0 +1,38 @@
+.header__body {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu {
+  margin: 0 0 0 auto;
+}
+
+.header-menu__list {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-item:not(:last-child) {
+  margin: 0 32px 0 0;
+}
+
+.header-menu-link {
+  color: $light;
+  font-weight: 300;
+}
+
+.header__authorization {
+  margin: 0 0 0 32px;
+}
+
+.header-login {
+  display: inline-block;
+  font-weight: 500;
+  color: $light; 
+  padding: 0 24px;
+  border-right: 2px solid $outlineLight;
+}
+
+.header-signup {
+  margin: 0 0 0 24px;
+}
